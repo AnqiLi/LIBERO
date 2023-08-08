@@ -41,9 +41,9 @@ setup(
         "matplotlib==3.5.3",
         "cloudpickle==2.1.0",
         "gym==0.25.2",
-        "torch==1.11.0",
-        "torchvision==0.12.0",
-        "torchaudio==0.11.0",
+        "torch==1.12.1",
+        "torchvision==0.13.1",
+        "torchaudio==0.12.1",
     ],
     entry_points={
         "console_scripts": [
