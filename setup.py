@@ -14,7 +14,6 @@ long_description = "".join(lines)
 setup(
     name="libero",
     packages=[package for package in find_packages() if package.startswith("libero")],
-    install_requires=[],
     eager_resources=["*"],
     include_package_data=True,
     python_requires=">=3",
