@@ -52,4 +52,5 @@ setup(
             "libero.create_template=scripts.create_template:main",
         ]
     },
+    include_package_data=True,
 )
